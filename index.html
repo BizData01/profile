@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방병권 | 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">B.</div>
+        <div class="nav-links">
+            <ol>
+                <li><a href="#about"><span class="nav-num">01.</span> 소개</a></li>
+                <li><a href="#experience"><span class="nav-num">02.</span> 경력</a></li>
+                <li><a href="#projects"><span class="nav-num">03.</span> 프로젝트</a></li>
+                <li><a href="#publications"><span class="nav-num">04.</span> 논문/저서</a></li>
+                <li><a href="#education"><span class="nav-num">05.</span> 학력&기타</a></li>
+            </ol>
+            <a href="mailto:bgbang03@gmail.com" class="resume-api" style="display:none">Contact</a> <!-- Hidden button for style match -->
+        </div>
+    </nav>
+
+    <div class="email-sidebar-left">
+        <ul class="social-list">
+            <li><a href="https://github.com/dashboard" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://m.blog.naver.com/biz_data?tab=1" target="_blank"><i class="fas fa-blog"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/byunggwon-bang" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div class="vertical-line"></div>
+    </div>
+
+    <div class="email-sidebar-right">
+        <a href="mailto:bgbang03@gmail.com" class="email-link">bgbang03@gmail.com</a>
+        <div class="vertical-line"></div>
+    </div>
+
+    <div id="content">
+        
+        <!-- Hero Section -->
+        <main class="fill-height">
+            <section id="hero" class="hero-section">
+                <p class="hi-text">안녕하세요, 제 이름은</p>
+                <h1 class="big-heading">방병권입니다.</h1>
+                <h2 class="big-heading slate-text">Data-driven HR & Innovation.</h2>
+                <p class="hero-desc">
+                    저는 인사관리(HR)와 빅데이터 분석을 결합하여 조직의 성과를 혁신하는 전문가입니다.<br>
+                    현재 <span class="accent-text">휴먼데이터랩 CEO</span>로서 데이터 기반의 경영 컨설팅과 교육을 수행하고 있습니다.
+                </p>
+                <a href="#about" class="cta-button">더 알아보기</a>
+            </section>
+        </main>
+
+        <!-- About Section -->
+        <section id="about" class="section-container" data-scroll>
+            <h2 class="numbered-heading">소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        SK하이닉스와 포스코에너지 등 대기업에서 30년 가까이 인사, 기획, 혁신 업무를 수행하며 실무 경험을 쌓았습니다.
+                        이후 학문적 깊이를 더해 경영학 박사(MIS 전공) 학위를 취득하였으며, 현재는 실무와 이론을 겸비한 전문가로서 활동하고 있습니다.
+                    </p>
+                    <p>
+                        최근에는 다음과 같은 분야에 집중하고 있습니다:
+                    </p>
+                    <ul class="skills-list">
+                        <li>Data-driven 인사관리</li>
+                        <li>빅데이터 분석 및 경영</li>
+                        <li>성과관리 시스템 구축</li>
+                        <li>조직문화 및 리더십</li>
+                        <li>AI & HR Analytics</li>
+                        <li>디지털 트랜스포메이션</li>
+                    </ul>
+                </div>
+                <div class="about-img">
+                    <div class="img-wrapper">
+                        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section (Tab Style) -->
+        <section id="experience" class="section-container" data-scroll>
+            <h2 class="numbered-heading">경력 사항</h2>
+            
+            <div class="jobs-tabs">
+                <div class="tabs-list" role="tablist">
+                    <button class="tab-button active" data-tab="human">휴먼데이터랩</button>
+                    <button class="tab-button" data-tab="sk-sub">SK 자회사</button>
+                    <button class="tab-button" data-tab="sk-hynix">SK 하이닉스</button>
+                    <button class="tab-button" data-tab="posco">포스코에너지</button>
+                </div>
+
+                <div class="tab-content-container">
+                    <!-- 휴먼데이터랩 -->
+                    <div id="human" class="tab-panel active" role="tabpanel">
+                        <h3 class="job-title">CEO <span class="company">@ 휴먼데이터랩</span></h3>
+                        <p class="job-range">2020. 07 ~ 현재</p>
+                        <div class="job-desc">
+                            <ul>
+                                <li>데이터바우처 지원사업 8개사 시행 및 AI마스터 수행</li>
+                                <li>오스템임플란트 성과관리시스템 및 글로벌 인력계획 수립 (장기 프로젝트)</li>
+                                <li>덕성여대 교육국제화 발전전략 수립</li>
+                                <li>기관 및 대학 대상 빅데이터/HR 특강 다수 진행</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- SK 자회사 -->
+                    <div id="sk-sub" class="tab-panel" role="tabpanel">
+                        <h3 class="job-title">대표이사 <span class="company">@ SK하이스텍/행복모아</span></h3>
+                        <p class="job-range">2014.12 ~ 2017.12</p>
+                        <div class="job-desc">
+                            <ul>
+                                <li>자회사형 장애인 표준 사업장 신설 및 운영 프로세스 구축</li>
+                                <li>‘한국서비스품질우수기업’ 5연속 인증 달성</li>
+                                <li>메뉴추천시스템 도입으로 식당 잔반 1/3 절감 (Data 활용)</li>
+                                <li>통근버스 및 물류 운영 효율화를 통한 비용 절감 및 품질 향상</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- SK 하이닉스 -->
+                    <div id="sk-hynix" class="tab-panel" role="tabpanel">
+                        <h3 class="job-title">팀장 (인사/기획) <span class="company">@ SK하이닉스</span></h3>
+                        <p class="job-range">2007.09 ~ 2014.12</p>
+                        <div class="job-desc">
+                            <ul>
+                                <li>대팀제 도입 및 전략적 인력계획(SWP) 수립 (PM)</li>
+                                <li>Oracle 기반 전사 성과관리 시스템 구축 및 마일리지형 평가보상 제도 시행</li>
+                                <li>전사 차원의 Biz Process 개선 및 효율화 주도</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 포스코 -->
+                    <div id="posco" class="tab-panel" role="tabpanel">
+                        <h3 class="job-title">팀장 (인사/구매) <span class="company">@ 포스코에너지</span></h3>
+                        <p class="job-range">1989.11 ~ 2007.08</p>
+                        <div class="job-desc">
+                            <ul>
+                                <li>통합 ERP 시스템 구축 프로젝트 (PM)</li>
+                                <li>매년 경영계획 및 인력운영계획 수립</li>
+                                <li>IMF 위기 극복을 위한 혁신 추진 및 성과관리</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects / Consulting -->
+        <section id="projects" class="section-container" data-scroll>
+            <h2 class="numbered-heading">주요 프로젝트 (Projects)</h2>
+            <ul class="projects-grid">
+                
+                <!-- Recent Consulting -->
+                 <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">데이터바우처 지원사업</h3>
+                        <div class="project-description">
+                            <p>총 8개 기업(2021년 3개, 2022년 5개) 대상 데이터바우처 지원사업 수행 및 컨설팅 제공.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>K-Data</li>
+                            <li>2021-2022</li>
+                            <li>Consulting</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">유일금속 데이터인프라 구축</h3>
+                        <div class="project-description">
+                            <p>데이터인프라 구축사업의 AI 마스터로서 제조 데이터 분석 및 인프라 설계 리딩.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>AI Master</li>
+                            <li>Smart Factory</li>
+                            <li>2021</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">오스템임플란트 HR 혁신</h3>
+                        <div class="project-description">
+                            <p>성과관리 시스템 구축, 평가보상 체계 개선, 글로벌 인력계획 수립을 위한 장기 컨설팅.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Global HR</li>
+                            <li>System</li>
+                            <li>2019-2025</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">덕성여대 발전전략 수립</h3>
+                        <div class="project-description">
+                            <p>교육국제화 발전전략 수립 컨설팅을 통해 대학 경쟁력 강화 방안 제시.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Strategy</li>
+                            <li>Education</li>
+                            <li>2020</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">SBA 역량면접 개발</h3>
+                        <div class="project-description">
+                            <p>서울산업진흥원 신입공채 역량면접 과제 및 평가지표 개발 (Recruiting Innovation).</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Recruiting</li>
+                            <li>Assessment</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+                
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">광주테크노파크 심층분석</h3>
+                        <div class="project-description">
+                            <p>미래형 자동차전장부품 고도화사업에 대한 심층분석 연구 수행.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Automotive</li>
+                            <li>R&D Analysis</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">국립재난안전연구원 로드맵</h3>
+                        <div class="project-description">
+                            <p>행정안전부 연구개발사업에 대한 중장기 R&D 로드맵 수립.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>R&D Strategy</li>
+                            <li>Public Safety</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">KIAT 산업기술혁신계획</h3>
+                        <div class="project-description">
+                            <p>제7차(2019~2023) 산업기술혁신계획 추진전략 연구 수행.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Policy Research</li>
+                            <li>Innovation</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                 <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">경영혁신 프로젝트</h3>
+                        <div class="project-description">
+                            <p>동서페더럴모굴㈜ 경영위기 극복을 위한 전사적 경영혁신 컨설팅.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Innovation</li>
+                            <li>Crisis Mgmt</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">R&D 사업화 역량 컨설팅</h3>
+                        <div class="project-description">
+                            <p>한국에너지기술평가원(KETEP) R&D과제 사업화 역량 제고를 위한 컨설팅.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>R&D</li>
+                            <li>Commercialization</li>
+                            <li>2018</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <!-- Corporate Experience Projects -->
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">장애인 표준 사업장 신설</h3>
+                        <div class="project-description">
+                            <p>SK하이닉스 자회사형 장애인 표준 사업장(행복모아) 신설 및 운영 프로세스 구축.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>SK Hystec</li>
+                            <li>CSR</li>
+                            <li>Setup</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">사내 식당/물류 혁신</h3>
+                        <div class="project-description">
+                            <p>메뉴추천시스템 도입(잔반 1/3 절감) 및 물류창고/통근버스 운영 효율화 달성.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Cost Saving</li>
+                            <li>Optimization</li>
+                            <li>Big Data</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                 <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">통합 관제시스템 도입</h3>
+                        <div class="project-description">
+                            <p>이천 및 청주 사업장의 통합 관제시스템 구축으로 산업보안 선진화 실현.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Security</li>
+                            <li>Integration</li>
+                            <li>SK</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">전략적 인력계획(SWP)</h3>
+                        <div class="project-description">
+                            <p>대팀제 도입과 연계된 전사 차원의 Strategic Workforce Planning 수립 및 운영.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>SK Hynix</li>
+                            <li>HR Strategy</li>
+                            <li>PM</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">성과관리 시스템 (PM)</h3>
+                        <div class="project-description">
+                            <p>Oracle 기반의 전사 성과관리 시스템 구축 및 마일리지형 평가/보상 제도 도입.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>HRIS</li>
+                            <li>Oracle</li>
+                            <li>Performance</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                 <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">통합 ERP 구축 (PM)</h3>
+                        <div class="project-description">
+                            <p>포스코에너지 재직 시 전사 통합 ERP 시스템 구축 프로젝트 총괄 (with Oracle).</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>POSCO</li>
+                            <li>ERP</li>
+                            <li>PM</li>
+                        </ul>
+                    </footer>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section-container" data-scroll>
+            <h2 class="numbered-heading">저서 및 논문 (Publications)</h2>
+            <ul class="projects-grid">
+                 <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">빅데이터 경영 4.0</h3>
+                        <div class="project-description">
+                            <p>4차 산업혁명 시대의 데이터 경영 전략을 다룬 저서. 기업의 실질적인 데이터 활용 방안과 사례를 제시.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>라온북</li>
+                            <li>2017</li>
+                            <li>Book</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">채용 AI 수용의도 연구</h3>
+                        <div class="project-description">
+                            <p>[박사논문] 채용인공지능에서 인간-인공지능간의 협업수준에 따른 수용의도 연구.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Ph.D. Thesis</li>
+                            <li>2022</li>
+                            <li>AI & HR</li>
+                        </ul>
+                    </footer>
+                </li>
+
+                <li class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <i class="far fa-folder folder-icon"></i>
+                        </div>
+                        <h3 class="project-title">급식 메뉴 군집화/추천</h3>
+                        <div class="project-description">
+                            <p>[KCI 등재] 대규모 단체급식 데이터를 활용한 음식 메뉴 군집화와 추천시스템 성능 비교 연구.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Academic Paper</li>
+                            <li>2021</li>
+                            <li>Big Data</li>
+                        </ul>
+                    </footer>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section-container" data-scroll>
+            <h2 class="numbered-heading">학력 및 자격</h2>
+            
+            <div class="edu-container">
+                <div class="edu-column">
+                    <h3><i class="fas fa-user-graduate"></i> 학력</h3>
+                    <ul class="fancy-list">
+                        <li>
+                            <strong>경희대학교 경영학과 박사 (MIS)</strong>
+                            <span class="sub-text">2022.08 졸업</span>
+                        </li>
+                        <li>
+                            <strong>연세대학교 경영학 석사</strong>
+                            <span class="sub-text">2012.08 졸업</span>
+                        </li>
+                        <li>
+                            <strong>연세대학교 응용통계학과 학사</strong>
+                            <span class="sub-text">1990.02 졸업</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="edu-column">
+                    <h3><i class="fas fa-certificate"></i> 자격증</h3>
+                    <ul class="fancy-list">
+                        <li>빅데이터분석기사 (2021)</li>
+                        <li>경영지도사 (2019)</li>
+                        <li>SHRM-Senior PHR (2010, 미국 인사관리협회)</li>
+                        <li>직업상담사 2급 (2025)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="lectures-wrapper">
+                <h3><i class="fas fa-chalkboard-teacher"></i> 주요 강의 활동</h3>
+                <ul class="lecture-list-grid">
+                    <li>
+                        <strong>인사관리협회</strong>
+                        <span class="sub-text">CHO조찬 특강, 인사팀장 교류회의 특강/코디네이터, 인사담당 실무자 교육</span>
+                    </li>
+                    <li>
+                        <strong>GS건설 조직인사팀</strong>
+                        <span class="sub-text">"Data-driven 인사관리" 특강</span>
+                    </li>
+                    <li>
+                        <strong>CMC 33기 양성과정</strong>
+                        <span class="sub-text">"빅데이터 분석" 강의</span>
+                    </li>
+                    <li>
+                        <strong>JDC 신입사원 입문과정</strong>
+                        <span class="sub-text">"4차산업혁명과 빅데이터"</span>
+                    </li>
+                    <li>
+                        <strong>동아대학교 디지털금융학과</strong>
+                        <span class="sub-text">BNK그룹 대상 "빅데이터 경영 실천사례"</span>
+                    </li>
+                    <li>
+                        <strong>SK하이닉스 임원특강</strong>
+                        <span class="sub-text">빅데이터의 이해와 활용사례</span>
+                    </li>
+                    <li>
+                        <strong>SK고용디딤돌</strong>
+                        <span class="sub-text">4차산업혁명 특강</span>
+                    </li>
+                    <li>
+                        <strong>SBA 서울 혁신포럼</strong>
+                        <span class="sub-text">제2회 빅데이터 패널 참여</span>
+                    </li>
+                    <li>
+                        <strong>HB Technology / KMAC</strong>
+                        <span class="sub-text">직책자/팀원 성과관리 교육</span>
+                    </li>
+                    <li>
+                        <strong>오라클 / 인사관리협회</strong>
+                        <span class="sub-text">성과관리시스템, 마일리지 평가제도</span>
+                    </li>
+                    <li>
+                        <strong>동서페더럴 모굴</strong>
+                        <span class="sub-text">성과관리 시스템</span>
+                    </li>
+                    <li>
+                        <strong>고우성의 Talk IT</strong>
+                        <span class="sub-text">저자와의 만남 (빅데이터 경영 4.0)</span>
+                    </li>
+                    <li>
+                        <strong>학교/학부모 특강</strong>
+                        <span class="sub-text">대진여고, 영신여고, 염동초 학부모 대상 "빅데이터의 이해"</span>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="social-links-mobile">
+                <ul>
+                    <li><a href="https://github.com/dashboard" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/byunggwon-bang" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="mailto:bgbang03@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <p>Designed & Built by <span class="b-brand">Bang Byung-kwon</span>'s AI Assistant.</p>
+            <p style="font-size: 0.8em; margin-top:5px; opacity: 0.7;">Inspired by Brittany Chiang</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
